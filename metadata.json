@@ -1,0 +1,6 @@
+{
+  "name": "DevaYatra Cabs",
+  "description": "Deoghar's premier cab platform by Raja Bhaiya. Heritage of Rajkumar Shukla, serving pilgrims with 24/7 automated booking, local expertise, and a network of trusted drivers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

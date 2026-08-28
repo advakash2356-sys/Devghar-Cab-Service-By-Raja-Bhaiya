@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-saffron: #FF6B00;
+  --color-saffron-dark: #E65A00;
+  --color-royal-blue: #1A237E;
+  --color-gold: #FFD700;
+  --color-warm-white: #FFF8F0;
+  --color-charcoal: #1C1C1C;
+  --color-warm-gray: #5C5C5C;
+  --color-success: #2E7D32;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #1DA851;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-noto: "Noto Sans", sans-serif;
+  --font-tiro: "Tiro Devanagari Hindi", serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-noto);
+    background-color: var(--color-warm-white);
+    color: var(--color-charcoal);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins);
+  }
+
+  /* Padding for mobile sticky bar */
+  @media (max-width: 768px) {
+    body {
+      padding-bottom: 70px;
+    }
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
