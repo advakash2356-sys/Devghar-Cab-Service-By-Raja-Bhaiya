@@ -21,8 +21,7 @@ Devghar Cab Service By Raja Bhaiya
 - **Icons & Animation**: Lucide React, Motion
 - **Head Management**: React Helmet Async
 - **Build Tool**: Vite 6, TypeScript, esbuild
-- **Server / Backend Utilities**: Express, tsx, dotenv
-- **AI Integration**: `@google/genai`
+- **Tooling**: tsx, dotenv (Express is listed in `package.json` but there is no server code)
 
 ## Setup
 
